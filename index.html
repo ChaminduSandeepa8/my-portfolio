@@ -1,3 +1,74 @@
-<html>
-  <head></head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="header">
+    <div class="container"> 
+      <nav>
+        <img src="images/logo.png" class="logo">
+        <ul>     
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">services</a></li>
+          <li><a href="#">portfolio</a></li>
+          <li><a href="#">contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-text">
+        <p>University Undergraduate  </p>
+        <h1>Hi, I'm <span>Chamindu</span><br> Sandeepa From Sri Lanka</h1>
+      </div>
+    </div>
+  </div>
+<!-- about page -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-1">
+          <img src="images/user.png" >
+        </div>
+        <div class="col-2">
+         <h1>About me</h1>
+         <p> Hi! I'm Chamindu, a passionate and creative individual with a strong interest in web development and technology. 
+    I enjoy building modern, user-friendly websites and constantly learning new skills to improve my craft. 
+    Whether it’s HTML, CSS, or JavaScript, I love bringing ideas to life through clean and responsive design.</p>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('skills')">Experience</p>
+            <p class="tab-links" onclick="opentab('skills')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+                <li><span>ui/ux</span><br>desingning web/app</li>
+                <li><span>web development</span><br>desingning web/app</li>
+                <li><span>app development</span><br>desingning web/app</li>
+              </ul>
+          </div>
+          <div class="tab-contents" id="Experience">
+            <ul>
+                <li><span>ui/ux</span><br>desingning web/app</li>
+                <li><span>web development</span><br>desingning web/app</li>
+                <li><span>app development</span><br>desingning web/app</li>
+              </ul>
+          </div>
+          <div class="tab-contents" id="Education">
+            <ul>
+                <li><span>ui/ux</span><br>desingning web/app</li>
+                <li><span>web development</span><br>desingning web/app</li>
+                <li><span>app development</span><br>desingning web/app</li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  
+</body>
 </html>
